@@ -263,7 +263,7 @@ h2 {
 }
 
 @media (max-width: 500px) {
-  .container { padding: 100px 200px; }
+  .container { padding: 100px 50px; }
   .features, .get-list, .limited-reviews { flex-direction: column; }
   .feature, .get-item, .review { width: 100%; }
   .how-steps { flex-direction: column; }
