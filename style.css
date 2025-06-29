@@ -75,7 +75,8 @@ h2 {
 }
 
 .how-step {
-  /* flex: 1; */
+  flex: 1;
+  width: 100%;
   text-align: center;
   padding: 0 8px;
 }
