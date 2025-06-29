@@ -68,8 +68,8 @@ h2 {
   color: #222;
 }
 .how-arrow {
-  font-size: 2em;
-  color: #bdbdbd;
+  /* font-size: 2em; */
+  color: #f7c948;
   align-self: center;
 }
 .get-section {
