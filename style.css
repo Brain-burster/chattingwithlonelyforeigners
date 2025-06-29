@@ -1,46 +1,55 @@
 /* style.css for Step-By-Step Chat Partner Blueprint */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Poppins", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 
-        }
+}
+
 body {
   background: #fff;
   color: #000;
 }
+
 .container {
   width: 80%;
   margin: auto;
   background: #fff;
   border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   padding: 70px 100px;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   text-align: center;
   margin: 0 0 16px 0;
 }
+
 h1 {
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: 8px;
 }
+
 h2 {
   font-size: 1.2rem;
   font-weight: 700;
   color: #000;
   margin-bottom: 24px;
 }
+
 .features {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 32px;
 }
+
 .feature {
   display: flex;
   align-items: center;
@@ -48,46 +57,55 @@ h2 {
   margin-bottom: 16px;
   font-size: 1rem;
 }
+
 .feature-icon {
   color: #7bb86f;
   font-size: 1.3em;
   margin-right: 10px;
 }
+
 .how-works {
   margin: 32px 0 24px 0;
 }
+
 .how-steps {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;  
+  align-items: flex-start;
   margin-top: 18px;
 }
+
 .how-step {
   flex: 1;
   text-align: center;
   padding: 0 8px;
 }
+
 .how-step-icon {
   font-size: 2.2em;
   margin-bottom: 8px;
   color: #222;
 }
+
 .how-arrow {
   font-size: 1.5em;
   color: #f7c948;
   align-self: center;
 }
+
 .get-section {
   background: #f7fbe9;
   border-radius: 12px;
-  padding: 18px 12px 12px 12px;                                                       
+  padding: 18px 12px 12px 12px;
   margin: 32px 0 24px 0;
 }
+
 .get-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .get-item {
   width: 48%;
   margin-bottom: 14px;
@@ -95,25 +113,30 @@ h2 {
   align-items: center;
   font-size: 1rem;
 }
+
 .get-icon {
   color: #7bb86f;
   font-size: 1.2em;
   margin-right: 8px;
 }
+
 .limited-time {
   margin: 32px 0 12px 0;
   text-align: center;
 }
+
 .limited-time h3 {
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 8px;
 }
+
 .limited-reviews {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
 }
+
 .review {
   width: 32%;
   background: #f9f9f9;
@@ -121,44 +144,52 @@ h2 {
   padding: 10px 8px;
   font-size: 0.95em;
   color: #444;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
+
 .stars {
   color: #f7c948;
   font-size: 1.1em;
   margin-bottom: 4px;
   display: block;
 }
+
 #countdown {
   font-size: 1.3em;
   color: #e74c3c;
   font-weight: bold;
   margin: 10px 0 0 0;
 }
+
 .limited-offer {
   margin: 24px 0 0 0;
   text-align: center;
 }
+
 .limited-offer span {
   font-size: 1.1em;
   font-weight: 700;
   color: #222;
 }
+
 .limited-offer .act-fast {
   color: #7bb86f;
   font-style: italic;
   font-size: 1.1em;
   margin-left: 6px;
 }
+
 .cta-section {
   margin: 18px 0 0 0;
   text-align: center;
 }
+
 .cta-text {
   font-size: 1.1em;
   margin-bottom: 10px;
   color: #222;
 }
+
 .whatsapp-btn {
   display: inline-block;
   background: #019738;
@@ -169,12 +200,14 @@ h2 {
   border: none;
   border-radius: 30px;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: background 0.2s;
 }
+
 .whatsapp-btn:hover {
   background: #019738;
 }
+
 /* Add green circle icon style for Font Awesome icons */
 .icon-circle {
   display: inline-flex;
@@ -187,11 +220,13 @@ h2 {
   height: 38px;
   font-size: 1em;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(123,184,111,0.10);
+  box-shadow: 0 2px 8px rgba(123, 184, 111, 0.10);
 }
+
 .features .feature-icon {
   margin-right: 10px;
 }
+
 .how-step-icon .icon-square {
   width: 48px;
   height: 48px;
@@ -205,27 +240,31 @@ h2 {
   height: 38px;
   font-size: 1em;
   padding: 20px 25px;
-  box-shadow: 0 2px 8px rgba(123,184,111,0.10);
+  box-shadow: 0 2px 8px rgba(123, 184, 111, 0.10);
 }
+
 .get-icon .icon-circle {
   width: 32px;
   height: 32px;
   font-size: 1em;
 }
+
 .limited-offer .icon-circle {
   width: 28px;
   height: 28px;
   font-size: 1em;
 }
+
 .stars .fa-star {
   color: #f7c948;
   font-size: 1.1em;
   margin-right: 1px;
 }
-/* @media (max-width: 500px) {
+
+@media (max-width: 500px) {
   .container { padding: 12px 2vw; }
   .features, .get-list, .limited-reviews { flex-direction: column; }
   .feature, .get-item, .review { width: 100%; }
   .how-steps { flex-direction: column; }
   .how-arrow { display: none; }
-} */
+}
