@@ -1,0 +1,178 @@
+/* style.css for Step-By-Step Chat Partner Blueprint */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+}
+h1, h2, h3 {
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 24px;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+.feature-icon {
+  color: #7bb86f;
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+.how-works {
+  margin: 32px 0 24px 0;
+}
+.how-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 18px;
+}
+.how-step {
+  flex: 1;
+  text-align: center;
+  padding: 0 8px;
+}
+.how-step-icon {
+  font-size: 2.2em;
+  margin-bottom: 8px;
+  color: #222;
+}
+.how-arrow {
+  font-size: 2em;
+  color: #bdbdbd;
+  align-self: center;
+}
+.get-section {
+  background: #f7fbe9;
+  border-radius: 12px;
+  padding: 18px 12px 12px 12px;
+  margin: 32px 0 24px 0;
+}
+.get-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.get-item {
+  width: 48%;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.get-icon {
+  color: #7bb86f;
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+.limited-time {
+  margin: 32px 0 12px 0;
+  text-align: center;
+}
+.limited-time h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.limited-reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.review {
+  width: 32%;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px 8px;
+  font-size: 0.95em;
+  color: #444;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.stars {
+  color: #f7c948;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+  display: block;
+}
+#countdown {
+  font-size: 1.3em;
+  color: #e74c3c;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+.limited-offer {
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+.limited-offer span {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #222;
+}
+.limited-offer .act-fast {
+  color: #7bb86f;
+  font-style: italic;
+  font-size: 1.1em;
+  margin-left: 6px;
+}
+.cta-section {
+  margin: 18px 0 0 0;
+  text-align: center;
+}
+.cta-text {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #222;
+}
+.whatsapp-btn {
+  display: inline-block;
+  background: #25d366;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+.whatsapp-btn:hover {
+  background: #1ebc59;
+}
+@media (max-width: 700px) {
+  .container { padding: 12px 2vw; }
+  .features, .get-list, .limited-reviews { flex-direction: column; }
+  .feature, .get-item, .review { width: 100%; }
+  .how-steps { flex-direction: column; }
+  .how-arrow { display: none; }
+}
