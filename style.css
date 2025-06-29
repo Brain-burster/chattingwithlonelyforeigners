@@ -217,10 +217,10 @@ h2 {
   font-size: 1.1em;
   margin-right: 1px;
 }
-@media (max-width: 700px) {
+/* @media (max-width: 500px) {
   .container { padding: 12px 2vw; }
   .features, .get-list, .limited-reviews { flex-direction: column; }
   .feature, .get-item, .review { width: 100%; }
   .how-steps { flex-direction: column; }
   .how-arrow { display: none; }
-}
+} */
