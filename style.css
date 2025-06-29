@@ -265,5 +265,5 @@ h2 {
   .features, .get-list, .limited-reviews { flex-direction: column; }
   .feature, .get-item, .review { width: 100%; }
   .how-steps { flex-direction: column; }
-  .how-arrow { display: none; }
+  /* .how-arrow { display: none; } */
 }
