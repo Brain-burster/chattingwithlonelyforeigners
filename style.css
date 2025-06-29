@@ -194,7 +194,7 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: #7bb86f;
+  border: 1px solid #7bb86f;
   color: #fff !important;
   border-radius: 50%;
   width: 38px;
